@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "RD's Farm",
     images: [
       {
-        url: "https://rdsfarm.com/rdsfarm-og.png",
+        url: "https://rdsfarm.com/rdsfarm-og.jpg",
         width: 1200,
         height: 630,
         alt: "RD's Farm lush landscape",
