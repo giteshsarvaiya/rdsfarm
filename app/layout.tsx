@@ -93,6 +93,9 @@ Near Laxmi Sky City, Dastan Circle, Kathwada, Ahmedabad - 382330
           <p className="text-sm text-gray-400">
             © {currentYear} RD&apos;s Farm. All Rights Reserved.
           </p>
+          <p className="text-sm text-gray-300">
+           Website Developed by <a href="https://x.com/SarvaiyaGitesh" className="underline">Gitesh Sarvaiya</a>
+          </p>
         </div>
       </div>
     </footer>

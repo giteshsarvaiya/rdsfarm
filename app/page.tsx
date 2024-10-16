@@ -55,9 +55,6 @@ export default function Home() {
         <p className="text-lg text-muted-foreground">
           At RD&apos;s Farm, we believe in creating moments that last a lifetime. Whether you're planning a dream wedding, a corporate retreat, or a family reunion, our dedicated team ensures every detail is perfect.
         </p>
-        <button className="border mr-3 border-muted-foreground py-2 px-4 text-white mt-4 text-lg font-semibold bg-[#ec743c] rounded-lg hover:bg-[#ec743c]/70  transition duration-300">
-          Learn More About Our Story
-        </button>
         <Link href={"/gallery"}>
         <button className="border border-muted-foreground py-2 px-4 mt-4 text-lg text-white font-semibold rounded-lg bg-[#ec743c] hover:bg-[#ec743c]/70  transition duration-300"> Watch Our Gallery</button>
         </Link>
