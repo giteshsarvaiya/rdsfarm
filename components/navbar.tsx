@@ -8,11 +8,11 @@ import { Menu, X } from 'lucide-react'
 
 const navItems = [
   { name: 'Home', href: '/' },
-  { name: 'About Us', href: '#about' },
-  { name: 'Reviews', href: '#review' },
-  { name: 'Contact', href: '#contact' },
-  { name: 'Location', href: '#contact' },
-  { name: 'Gallery', href: '/gallery' },
+  { name: 'About Us', href: 'https://rdsfarm.com/#about' },
+  { name: 'Reviews', href: 'https://rdsfarm.com/#review' },
+  { name: 'Contact', href: 'https://rdsfarm.com/#contact' },
+  { name: 'Location', href: 'https://rdsfarm.com/#contact' },
+  { name: 'Gallery', href: 'https://rdsfarm.com/gallery' },
 ]
 
 export default function Navbar() {

@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "RD's Farm",
     images: [
       {
-        url: "https://rdsfarm.vercel.app/rdsfarm-og.png",
+        url: "https://rdsfarm.com/rdsfarm-og.png",
         width: 1200,
         height: 630,
         alt: "RD's Farm lush landscape",
