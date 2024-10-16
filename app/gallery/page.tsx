@@ -4,18 +4,18 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const images = [
-  { src: "https://rdsfarm.com/image1.jpg?height=800&width=1200", alt: "Farm landscape" },
-  { src: "https://rdsfarm.com/image2.jpg?height=800&width=1200", alt: "Wedding ceremony" },
-  { src: "https://rdsfarm.com/image3.jpg?height=800&width=1200", alt: "Rustic barn interior" },
-  { src: "https://rdsfarm.com/image4.jpg?height=800&width=1200", alt: "Farm-to-table dinner" },
-  { src: "https://rdsfarm.com/image5.jpg?height=800&width=1200", alt: "Outdoor event space" },
-  { src: "https://rdsfarm.com/image6.jpg?height=800&width=1200", alt: "Cozy accommodation" },
-  { src: "https://rdsfarm.com/image7.jpg?height=800&width=1200", alt: "Farm animals" },
-  { src: "https://rdsfarm.com/image8.jpg?height=800&width=1200", alt: "Scenic sunset view" },
-  { src: "https://rdsfarm.com/image9.jpg?height=800&width=1200", alt: "Corporate retreat" },
-  { src: "https://rdsfarm.com/image10.jpg?height=800&width=1200", alt: "Garden party" },
-  { src: "https://rdsfarm.com/image11.jpg?height=800&width=1200", alt: "Autumn harvest festival" },
-  { src: "https://rdsfarm.com/image12.jpg?height=800&width=1200", alt: "Winter wonderland event" },
+  { src: "/image2.jpg", alt: "Wedding ceremony" },
+  { src: "/image1.jpg", alt: "Farm landscape" },
+  { src: "/image3.jpg", alt: "Rustic barn interior" },
+  { src: "/image4.jpg", alt: "Farm-to-table dinner" },
+  { src: "/image5.jpg", alt: "Outdoor event space" },
+  { src: "/image6.jpg", alt: "Cozy accommodation" },
+  { src: "/image7.jpg", alt: "Farm animals" },
+  { src: "/image8.jpg", alt: "Scenic sunset view" },
+  { src: "/image9.jpg", alt: "Corporate retreat" },
+  { src: "/image10.jpg", alt: "Garden party" },
+  { src: "/image11.jpg", alt: "Autumn harvest festival" },
+  { src: "/image12.jpg", alt: "Winter wonderland event" },
 ]
 
 export default function GalleryPage() {

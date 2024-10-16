@@ -65,28 +65,28 @@ export default function Home() {
 
       <div className="grid grid-cols-2 gap-4">
         <Image
-          src="https://rdsfarm.com/image1.jpg?height=300&width=300"
+          src="/image1.jpg"
           alt="RDs Farm scenery"
           width={300}
           height={300}
           className="rounded-lg shadow-md"
         />
         <Image
-          src="https://rdsfarm.com/image2.jpg"
+          src="/image2.jpg"
           alt="RDs Farm event space"
           width={300}
           height={300}
           className="rounded-lg shadow-md"
         />
         <Image
-          src="https://rdsfarm.com/image3.jpg"
+          src="/image3.jpg"
           alt="RDs Farm accommodation"
           width={300}
           height={300}
           className="rounded-lg shadow-md"
         />
         <Image
-          src="https://rdsfarm.com/image4.jpg"
+          src="/image4.jpg"
           alt="RDs Farm activities"
           width={300}
           height={300}
