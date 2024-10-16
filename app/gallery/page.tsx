@@ -4,18 +4,18 @@ import Image from 'next/image'
 import { useState, useEffect } from 'react'
 
 const images = [
-  { src: "/image 1.jpg?height=800&width=1200", alt: "Farm landscape" },
-  { src: "/image 2.jpg?height=800&width=1200", alt: "Wedding ceremony" },
-  { src: "/image 3.jpg?height=800&width=1200", alt: "Rustic barn interior" },
-  { src: "/image 4.jpg?height=800&width=1200", alt: "Farm-to-table dinner" },
-  { src: "/image 5.jpg?height=800&width=1200", alt: "Outdoor event space" },
-  { src: "/image 6.jpg?height=800&width=1200", alt: "Cozy accommodation" },
-  { src: "/image 7.jpg?height=800&width=1200", alt: "Farm animals" },
-  { src: "/image 8.jpg?height=800&width=1200", alt: "Scenic sunset view" },
-  { src: "/image 9.jpg?height=800&width=1200", alt: "Corporate retreat" },
-  { src: "/image 10.jpg?height=800&width=1200", alt: "Garden party" },
-  { src: "/image 11.jpg?height=800&width=1200", alt: "Autumn harvest festival" },
-  { src: "/image 12.jpg?height=800&width=1200", alt: "Winter wonderland event" },
+  { src: "https://rdsfarm.com/image1.jpg?height=800&width=1200", alt: "Farm landscape" },
+  { src: "https://rdsfarm.com/image2.jpg?height=800&width=1200", alt: "Wedding ceremony" },
+  { src: "https://rdsfarm.com/image3.jpg?height=800&width=1200", alt: "Rustic barn interior" },
+  { src: "https://rdsfarm.com/image4.jpg?height=800&width=1200", alt: "Farm-to-table dinner" },
+  { src: "https://rdsfarm.com/image5.jpg?height=800&width=1200", alt: "Outdoor event space" },
+  { src: "https://rdsfarm.com/image6.jpg?height=800&width=1200", alt: "Cozy accommodation" },
+  { src: "https://rdsfarm.com/image7.jpg?height=800&width=1200", alt: "Farm animals" },
+  { src: "https://rdsfarm.com/image8.jpg?height=800&width=1200", alt: "Scenic sunset view" },
+  { src: "https://rdsfarm.com/image9.jpg?height=800&width=1200", alt: "Corporate retreat" },
+  { src: "https://rdsfarm.com/image10.jpg?height=800&width=1200", alt: "Garden party" },
+  { src: "https://rdsfarm.com/image11.jpg?height=800&width=1200", alt: "Autumn harvest festival" },
+  { src: "https://rdsfarm.com/image12.jpg?height=800&width=1200", alt: "Winter wonderland event" },
 ]
 
 export default function GalleryPage() {

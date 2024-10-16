@@ -9,7 +9,7 @@ const reviews = [
     id: 1,
     name: "Emily Johnson",
     role: "Bride",
-    image: "/review pfp1.jpeg?height=100&width=100",
+    image: "https://rdsfarm.com/review pfp1.jpeg?height=100&width=100",
     content: "Our wedding at RDs Farm was absolutely magical. The staff went above and beyond to make our day perfect. The scenic views provided a stunning backdrop for our photos!",
     rating: 5
   },
@@ -17,7 +17,7 @@ const reviews = [
     id: 2,
     name: "Michael Chen",
     role: "Corporate Event Planner",
-    image: "/review pfp2.jpeg?height=100&width=100",
+    image: "https://rdsfarm.com/review pfp2.jpeg?height=100&width=100",
     content: "We hosted our annual company retreat at RDs Farm and it exceeded all expectations. The facilities were top-notch and the team-building activities were engaging and fun.",
     rating: 5
   },
@@ -25,7 +25,7 @@ const reviews = [
     id: 3,
     name: "Sand Thompson",
     role: "Family Reunion Organizer",
-    image: "/review pfp4.jpeg?height=100&width=100",
+    image: "https://rdsfarm.com/review pfp4.jpeg?height=100&width=100",
     content: "RDs Farm was the perfect setting for our family reunion. The accommodations were comfortable, the food was delicious, and there were activities for all ages. We'll definitely be back!",
     rating: 4
   },
@@ -33,7 +33,7 @@ const reviews = [
     id: 4,
     name: "David Rodriguez",
     role: "Birthday Celebrant",
-    image: "/review pfp3.jpeg?height=100&width=100",
+    image: "https://rdsfarm.com/review pfp3.jpeg?height=100&width=100",
     content: "I celebrated my 50th birthday at RDs Farm and it was unforgettable. The farm-to-table dinner was exquisite and the ambiance was just what I wanted. Highly recommend!",
     rating: 5
   }
@@ -56,7 +56,7 @@ export default function ReviewsSection() {
   }, [])
 
   return (
-    <section id="review" className="py-20 bg-gray-50">
+    <section id="review" className="py-20https://rdsfarm.com bg-gray-50">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12">What Our Guests Say</h2>
         <div className="relative max-w-4xl mx-auto">
