@@ -3,8 +3,7 @@ import localFont from "next/font/local";
 import "./globals.css";
 import Navbar from "@/components/navbar";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Instagram } from 'lucide-react';
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -55,7 +54,7 @@ export default function RootLayout({
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-lg font-semibold mb-4">RD's Farm</h3>
+            <h3 className="text-lg font-semibold mb-4">RD&apos;s Farm</h3>
             <p className="text-sm text-gray-400">
             Your perfect destination for celebrations, weddings, parties and getaways. Experience the beauty of nature and the comfort of our facilities.
             </p>
@@ -84,7 +83,7 @@ export default function RootLayout({
               </a> */}
             </div>
             <p className="mt-4 text-sm text-gray-400">
-            RD's Farm <br/>
+            RD&apos;s Farm <br/>
 
 Near Laxmi Sky City, Dastan Circle, Kathwada, Ahmedabad - 382330
             </p>
@@ -92,7 +91,7 @@ Near Laxmi Sky City, Dastan Circle, Kathwada, Ahmedabad - 382330
         </div>
         <div className="mt-8 pt-8 border-t border-gray-800 text-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} RD's Farm. All Rights Reserved.
+            © {currentYear} RD&apos;s Farm. All Rights Reserved.
           </p>
         </div>
       </div>

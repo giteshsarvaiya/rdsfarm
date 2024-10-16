@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Phone, Mail, MapPin, Clock } from 'lucide-react';
-import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, MapPin } from 'lucide-react';
 import ReviewsSection from '@/components/reviews';
-import Navbar from "@/components/navbar";
 
 export default function Home() {
-  const currentYear = new Date().getFullYear()
   return (
     <div className=" container flex flex-col bg-gray-200">
 
@@ -33,7 +30,7 @@ export default function Home() {
         </div>
 
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight mb-4">
-          Welcome to RD's Farm
+          Welcome to RD&apos;s Farm
         </h1>
         <p className="text-xl sm:text-2xl md:text-3xl mb-8 max-w-3xl mx-auto">
           Your perfect destination for celebrations, weddings, parties and getaways <br />
@@ -48,15 +45,15 @@ export default function Home() {
 
     <section id="about" className="py-20 bg-background">
   <div className="container mx-auto px-4">
-    <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">About RDs Farm</h2>
+    <h2 className="text-3xl md:text-4xl font-bold text-center mb-8">About RD&apos;s Farm</h2>
     
     <div className="grid md:grid-cols-2 gap-8 items-center">
       <div className="space-y-4">
         <p className="text-lg text-muted-foreground">
-          Nestled in the heart of Ahmedabad, RDs Farm has been a cherished destination for celebrations and getaways since 2019. Our sprawling venue of lush landscapes provide the perfect backdrop for unforgettable experiences.
+          Nestled in the heart of Ahmedabad, RD&apos;s Farm has been a cherished destination for celebrations and getaways since 2019. Our sprawling venue of lush landscapes provide the perfect backdrop for unforgettable experiences.
         </p>
         <p className="text-lg text-muted-foreground">
-          At RDs Farm, we believe in creating moments that last a lifetime. Whether you're planning a dream wedding, a corporate retreat, or a family reunion, our dedicated team ensures every detail is perfect.
+          At RD&apos;s Farm, we believe in creating moments that last a lifetime. Whether you're planning a dream wedding, a corporate retreat, or a family reunion, our dedicated team ensures every detail is perfect.
         </p>
         <button className="border mr-3 border-muted-foreground py-2 px-4 text-white mt-4 text-lg font-semibold bg-[#ec743c] rounded-lg hover:bg-[#ec743c]/70  transition duration-300">
           Learn More About Our Story
@@ -99,7 +96,7 @@ export default function Home() {
     </div>
 
     <div className="mt-16">
-      <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">Why Choose RDs Farm?</h3>
+      <h3 className="text-2xl md:text-3xl font-bold text-center mb-8">Why Choose RD&apos;s Farm?</h3>
       
       <div className="grid md:grid-cols-3 gap-8">
         {[
@@ -152,7 +149,7 @@ export default function Home() {
                 </div> */}
                 <div className="flex items-start">
                   <MapPin className="w-6 h-6 text-primary mr-2 mt-1" />
-                  <span>              RD's Farm <br/>
+                  <span>              RD&apos;s Farm <br/>
 
 Near Laxmi Sky City, Dastan Circle, Kathwada, Ahmedabad - 382330</span>
                 </div>

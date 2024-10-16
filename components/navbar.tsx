@@ -32,7 +32,7 @@ export default function Navbar() {
                 height={50}
                 />
               <Link href="/" className="font-bold text-xl text-primary ml-2">
-                RD's Farm
+                RD&apos;s Farm
               </Link>
             </div>
           </div>
